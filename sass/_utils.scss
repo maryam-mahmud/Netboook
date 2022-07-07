@@ -1,0 +1,138 @@
+.heading-4{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.heading-3{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.heading-2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.heading-1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.profile-pic{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+
+    &-small{
+        margin-left: -5px;
+        border: 2px solid white;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 1rem;
+    }
+
+    &-medium{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+    }
+
+}
+
+.co-pri{color: $color-primary;}
+.tx-al{text-align: center;}
+.w{width: 80%;}
+
+.btn{
+    color: #fff;
+    background-color: $color-primary;
+}
+
+.fx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fx-c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fx-center{
+    display: flex;
+    align-items: center;
+}
+
+.fx-start{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+// .fx-e{
+//     display: flex;
+//     justify-content: flex-end;
+// }
+.pd-1{padding: .5rem;}
+.pd-2{padding: 2rem;}
+.pd-1-2{padding: 1rem 2rem;}
+.pd-9{padding: 0 9rem;}
+.gp{gap: 1rem;}
+.gp-2{gap: 2rem;}
+.gp-sm{ gap: .5rem;}
+.br-bt{border-bottom: 1px solid rgba(0,0,0,0.05);}
+
+
+.br-sm{border-radius: 1rem;}
+.br-bg{border-radius: 1.4rem;}
+.br-lg{border-radius: 50%;}
+// .bt{border-top: 1px solid rgba(0,0,0,0.2); }
+
+.icon{
+    height: 4rem;
+    width: 4rem;
+}
+.icon-small{
+    height: 3rem;
+    width:  3rem;
+    fill: rgba(0,0,0,0.8);
+}
+.icon-tiny{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.fill-grey{fill: rgb(173, 172, 172);}
+.fill-black{fill: black;}
+.fill-red{fill: red;}
+.fill-w{fill: #fff;}
+
+
+
+.fade{
+    font-size: 1.8rem;
+    color:black;
+    opacity: 0.6;
+}
+
+.mg-sm{margin-bottom: 1rem;}
+.mg-md{margin-bottom: 2rem;}
+
+
+.ds-grid{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: repeat(2, max-content);
+
+    & > :first-child{
+        grid-row: 1 / -1;
+    }
+
+}
+.footer-two{ 
+    height: 10vh;
+    padding: 0 9rem;
+    background-color: black;
+}

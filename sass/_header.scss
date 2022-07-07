@@ -1,0 +1,75 @@
+.header{
+    height: 120vh;
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+
+
+    display: grid;
+    grid-template-columns: 9rem 1fr 1.2fr 9rem;
+    grid-template-rows: max-content 1fr;
+    grid-template-areas: "nav nav nav nav"
+                         ". text image .";
+
+    &-nav{
+        grid-area: nav;
+        padding: 5rem 9rem;
+        height: 10vh;
+        &-links{
+            flex-basis: 50%;
+        }
+        &__list{
+            padding-top: 5px;
+            flex-basis: 60%;
+            select{font-size: inherit;}
+        }
+        &__link:link,&__link:visited{
+            color: inherit;
+        }
+        &__search-box{
+            width: 40%;
+            padding-bottom: 1.5rem;
+
+        }
+        &__log-in{
+            height: 5rem;
+            width: 12rem;
+        }
+    }
+    &-text{
+        
+        grid-area: text;
+        
+        &__container{
+            gap: 1.2rem;
+
+            & > :nth-child(4){
+                width: 60%;
+            }
+            p{width: 90%;}
+        }
+        &__heading{
+            font-size: 5rem;
+            font-weight: 800;
+            text-transform: capitalize;
+        }
+        &__btn{
+            &-1{
+                background-color: $color-secondary;
+                height: 3.5rem;
+                
+            }
+                
+            &-2{width: 15rem; height: 5rem;}
+            &-3{
+                background-color: transparent;
+                height: 5rem;
+                width: 15rem;
+                border: 1px solid $color-primary;
+            }
+        }
+    }
+    &-image{
+        grid-area: image;
+        padding-top: 4rem;
+    }
+
+}

@@ -1,0 +1,27 @@
+.footer{
+    padding: 6rem 10rem;
+    height: 60vh;
+    background: rgba(43, 43, 57, 1);
+
+    color: rgba(231, 231, 231, 1);
+
+    &__subscribe{
+        justify-content: space-between;
+        flex: 0 0 30%;
+        height: 20rem;
+
+        h3{width: 60%; align-self: flex-start;}
+        p{width: 80%;}
+        form{width: 100%; height: 4rem; border: 1px solid rgba(231, 231, 231, 1);}
+        button{background-color: #fff; width: 12rem; height: 100%; color: black;}
+    }
+
+
+
+}
+
+.footer-two{
+    padding: 5rem 9rem;
+    background: rgb(17, 17, 24);
+
+}

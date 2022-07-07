@@ -1,0 +1,23 @@
+.section-cta{
+    height: 80vh;
+    background: rgba(229, 240, 253, 1);
+}
+
+.cta{
+
+    &__text{
+        div{
+            width: 80%;
+            transform: translateX(-2rem);
+        }
+        p{width: 90%;}
+    }
+    &__image{
+        text-align: end;
+        img{
+            transform: translateX(6rem);
+            height: 100%;
+            width: 80%;
+        }
+    }
+}
