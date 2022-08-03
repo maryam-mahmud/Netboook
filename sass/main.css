@@ -54,6 +54,13 @@ select {
   color: inherit;
 }
 
+input {
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+
 .header {
   height: 120vh;
   background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);

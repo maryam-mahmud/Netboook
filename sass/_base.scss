@@ -54,3 +54,9 @@ ul{list-style: none; color: inherit;}
 
 a{text-decoration: none; display: block; color: inherit;}
 select{border: none; background-color: inherit; color: inherit;}
+input{
+    border: none;
+    &:focus{
+        outline: none;
+    }
+    }
